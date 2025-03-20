@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram id="JjNcR9NVZ7p-3jC7Ln9c" name="Page-1">
+    <mxGraphModel dx="804" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- UI Box -->
+        <mxCell id="2" value="UI (TypeScript, Next.js 15)" style="shape=rectangle;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- API Route -->
+        <mxCell id="3" value="API Route" style="shape=rectangle;strokeColor=#FF0000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- LLM (Claude 3.5) -->
+        <mxCell id="4" value="LLM (Claude 3.5)" style="shape=rectangle;strokeColor=#0000FF;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="150" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Convex Database -->
+        <mxCell id="5" value="Convex
+(Prompt, Final Msg, Database)" style="shape=rectangle;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="6" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;strokeColor=#000000;edge=1;" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="7" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;strokeColor=#000000;edge=1;" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;strokeColor=#000000;edge=1;" parent="1" source="4" target="2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;strokeColor=#000000;edge=1;" parent="1" source="3" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
